@@ -1,0 +1,27 @@
+{
+  "name": "brick-common",
+  "description": "Brick Common files",
+  "version": "0.1.4",
+  "keywords": [
+    "brick",
+    "custom",
+    "elements"
+  ],
+  "main": [
+    "styles/mixins.styl",
+    "styles/params.styl"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.1.0"
+  },
+  "homepage": "https://github.com/mozilla/brick-common",
+  "_release": "0.1.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.4",
+    "commit": "b1b827b22697c7718aa0b81df5995a27641081ca"
+  },
+  "_source": "git://github.com/mozilla/brick-common.git",
+  "_target": "~0.1.3",
+  "_originalSource": "brick-common"
+}

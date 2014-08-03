@@ -1,0 +1,42 @@
+brick-appbar {
+  background: -webkit-linear-gradient(top, #E77605 0%, #DB5427 100%);
+  background: linear-gradient(to bottom, #E77605 0%, #DB5427 100%);
+  border-bottom: 1px solid #D54A20;
+}
+
+brick-appbar .title {
+  color: white !important;
+}
+
+brick-appbar button {
+  position: relative;
+}
+
+brick-appbar core-icon {
+  color: white;
+}
+
+brick-deck {
+  overflow: scroll;
+}
+
+brick-item {
+  cursor: pointer;
+}
+
+brick-tabbar {
+  background: #222222;
+}
+
+brick-tabbar core-icon {
+  color: white;
+}
+
+brick-tabbar::shadow .selected-indicator {
+  background: #00D5F8;
+}
+
+paper-ripple {
+  color: #00BBD7 !important;
+}
+

@@ -1,0 +1,34 @@
+{
+  "name": "brick-menu",
+  "homepage": "https://github.com/mozbrick/brick-menu",
+  "authors": [
+    "mozilla"
+  ],
+  "description": "A simple menu.",
+  "main": "dist/brick-menu.html",
+  "keywords": [
+    "brick",
+    "webcomponents"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "brick-common": "~0.1.3",
+    "platform": "Polymer/platform"
+  },
+  "_release": "557007d929",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "557007d929ded12b1fc915c80342ad5b3eb62066"
+  },
+  "_source": "git://github.com/mozbrick/brick-menu.git",
+  "_target": "*",
+  "_originalSource": "mozbrick/brick-menu"
+}

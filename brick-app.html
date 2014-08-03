@@ -1,0 +1,40 @@
+<link rel="import" href="bower_components/brick-tabbar/dist/brick-tabbar.html">
+<link rel="import" href="bower_components/brick-deck/dist/brick-deck.html">
+<link rel="import" href="bower_components/core-icons/core-icons.html">
+<link rel="import" href="bower_components/google-map/google-map.html">">
+
+<polymer-element name="brick-app" attributes="">
+  <template>
+    <style>
+    :host {
+      display: block;
+    }
+    </style>
+    <brick-deck id="deck" flex selected-index="0" transition-type="slide-left">
+      <brick-card selected>
+        <google-map fit></google-map>
+      </brick-card>
+      <brick-card>1</brick-card>
+      <brick-card>2</brick-card>
+    </brick-deck>
+    <brick-tabbar>
+      <brick-tabbar-tab on-tap="{{show}}">
+        <core-icon icon="cloud-upload"></core-icon>
+      </brick-tabbar-tab>
+      <brick-tabbar-tab on-tap="{{show}}" selected>
+        <core-icon icon="home"></core-icon>
+      </brick-tabbar-tab>
+      <brick-tabbar-tab on-tap="{{show}}">
+        <core-icon icon="favorite"></core-icon>
+      </brick-tabbar-tab>
+    </brick-tabbar>
+  </template>
+  <script>
+    Polymer({
+      show: function(index) {
+        console.log('deck');
+        this.$.deck.showCard(index);
+      }
+    });
+  </script>
+</polymer-element>

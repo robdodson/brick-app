@@ -1,0 +1,37 @@
+{
+  "name": "x-instagram",
+  "version": "0.0.1",
+  "homepage": "https://github.com/addyosmani/x-instagram",
+  "authors": [
+    "Addy Osmani <addyosmani@gmail.com>"
+  ],
+  "description": "A Polymer element for querying the Instagram API",
+  "main": "x-instagram.html",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "instagram"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "platform": "Polymer/platform#~0.2.0",
+    "polymer": "Polymer/polymer#~0.2.0",
+    "polymer-jsonp": "Polymer/polymer-jsonp#~0.2.0"
+  },
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "af250969b132578a32b144dc51fdaf68affeeb90"
+  },
+  "_source": "git://github.com/addyosmani/x-instagram.git",
+  "_target": "~0.0.1",
+  "_originalSource": "x-instagram"
+}
